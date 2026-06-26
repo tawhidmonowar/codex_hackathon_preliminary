@@ -1,0 +1,17 @@
+{
+  "ticket_id": "TKT-PFC-01",
+  "complaint": "My payment of 2000 taka to DESCO failed but money was taken from my account. The app showed error.",
+  "language": "en",
+  "channel": "in_app_chat",
+  "user_type": "customer",
+  "transaction_history": [
+    {
+      "transaction_id": "TXN-PF01",
+      "timestamp": "2026-04-14T09:00:00Z",
+      "type": "payment",
+      "amount": 2000,
+      "counterparty": "BILLER-DESCO",
+      "status": "completed"
+    }
+  ]
+}

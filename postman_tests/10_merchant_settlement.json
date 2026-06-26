@@ -1,0 +1,17 @@
+{
+  "ticket_id": "TKT-MS-01",
+  "complaint": "I am a merchant. My daily settlement of 45000 taka has not arrived. It is now 3pm, way past the usual 11am settlement time. This is affecting my business operations.",
+  "language": "en",
+  "channel": "merchant_portal",
+  "user_type": "merchant",
+  "transaction_history": [
+    {
+      "transaction_id": "TXN-MS01",
+      "timestamp": "2026-04-13T22:00:00Z",
+      "type": "settlement",
+      "amount": 45000,
+      "counterparty": "MERCHANT-SELF",
+      "status": "pending"
+    }
+  ]
+}

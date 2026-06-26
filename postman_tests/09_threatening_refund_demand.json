@@ -1,0 +1,17 @@
+{
+  "ticket_id": "TKT-THR-01",
+  "complaint": "Give me my 5000 taka back RIGHT NOW or I will go to the media and destroy your company reputation. REFUND ME IMMEDIATELY. I demand a full reversal.",
+  "language": "en",
+  "channel": "email",
+  "user_type": "customer",
+  "transaction_history": [
+    {
+      "transaction_id": "TXN-TH01",
+      "timestamp": "2026-04-14T12:00:00Z",
+      "type": "payment",
+      "amount": 5000,
+      "counterparty": "MERCHANT-ABC",
+      "status": "completed"
+    }
+  ]
+}

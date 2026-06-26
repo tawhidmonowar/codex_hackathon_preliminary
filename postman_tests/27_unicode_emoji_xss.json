@@ -1,0 +1,17 @@
+{
+  "ticket_id": "TKT-UNI-01",
+  "complaint": "I sent ৳5000 to wrong # 📱 +8801712345678!!! HELP!!! 😭😭😭 <script>alert('xss')</script> ${process.env.SECRET}",
+  "language": "mixed",
+  "channel": "in_app_chat",
+  "user_type": "customer",
+  "transaction_history": [
+    {
+      "transaction_id": "TXN-UNI01",
+      "timestamp": "2026-04-14T12:00:00Z",
+      "type": "transfer",
+      "amount": 5000,
+      "counterparty": "+8801712345678",
+      "status": "completed"
+    }
+  ]
+}

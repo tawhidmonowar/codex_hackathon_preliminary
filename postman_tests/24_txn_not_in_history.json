@@ -1,0 +1,17 @@
+{
+  "ticket_id": "TKT-MISS-01",
+  "complaint": "Please check transaction TXN-99999. I sent 5000 taka to the wrong number by mistake.",
+  "language": "en",
+  "channel": "in_app_chat",
+  "user_type": "customer",
+  "transaction_history": [
+    {
+      "transaction_id": "TXN-11111",
+      "timestamp": "2026-04-14T08:00:00Z",
+      "type": "transfer",
+      "amount": 2000,
+      "counterparty": "+8801711111111",
+      "status": "completed"
+    }
+  ]
+}

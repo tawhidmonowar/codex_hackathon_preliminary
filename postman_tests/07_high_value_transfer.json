@@ -1,0 +1,17 @@
+{
+  "ticket_id": "TKT-HV-01",
+  "complaint": "I accidentally sent 500000 taka to the wrong person. This is my entire life savings. Please help me immediately.",
+  "language": "en",
+  "channel": "call_center",
+  "user_type": "customer",
+  "transaction_history": [
+    {
+      "transaction_id": "TXN-HV01",
+      "timestamp": "2026-04-14T13:00:00Z",
+      "type": "transfer",
+      "amount": 500000,
+      "counterparty": "+8801999999999",
+      "status": "completed"
+    }
+  ]
+}

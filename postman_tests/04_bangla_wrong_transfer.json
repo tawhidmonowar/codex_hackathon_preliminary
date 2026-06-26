@@ -1,0 +1,17 @@
+{
+  "ticket_id": "TKT-BN-01",
+  "complaint": "আমি আজ সকালে ভুল নম্বরে ৫০০০ টাকা পাঠিয়ে দিয়েছি। নম্বরটি ছিল ০১৭১২৩৪৫৬৭৮ কিন্তু ভুলে অন্য নম্বরে চলে গেছে। দয়া করে সাহায্য করুন।",
+  "language": "bn",
+  "channel": "call_center",
+  "user_type": "customer",
+  "transaction_history": [
+    {
+      "transaction_id": "TXN-BN01",
+      "timestamp": "2026-04-14T09:15:00Z",
+      "type": "transfer",
+      "amount": 5000,
+      "counterparty": "+8801799999999",
+      "status": "completed"
+    }
+  ]
+}

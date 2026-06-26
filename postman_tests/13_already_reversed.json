@@ -1,0 +1,17 @@
+{
+  "ticket_id": "TKT-REV-01",
+  "complaint": "I need a refund for my failed payment of 800 taka. The money was taken from my account.",
+  "language": "en",
+  "channel": "in_app_chat",
+  "user_type": "customer",
+  "transaction_history": [
+    {
+      "transaction_id": "TXN-REV01",
+      "timestamp": "2026-04-14T10:00:00Z",
+      "type": "payment",
+      "amount": 800,
+      "counterparty": "MERCHANT-Y",
+      "status": "reversed"
+    }
+  ]
+}

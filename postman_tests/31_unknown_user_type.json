@@ -1,0 +1,17 @@
+{
+  "ticket_id": "TKT-UNK-01",
+  "complaint": "My transfer of 3000 taka went to the wrong number. I need help.",
+  "language": "en",
+  "channel": "in_app_chat",
+  "user_type": "unknown",
+  "transaction_history": [
+    {
+      "transaction_id": "TXN-UNK01",
+      "timestamp": "2026-04-14T10:00:00Z",
+      "type": "transfer",
+      "amount": 3000,
+      "counterparty": "+8801733333333",
+      "status": "completed"
+    }
+  ]
+}

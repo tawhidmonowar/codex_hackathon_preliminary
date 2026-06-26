@@ -1,0 +1,33 @@
+{
+  "ticket_id": "TKT-ALF-01",
+  "complaint": "None of my transactions are going through today. I tried 3 times to pay my bill but all failed. My balance keeps getting deducted though.",
+  "language": "en",
+  "channel": "in_app_chat",
+  "user_type": "customer",
+  "transaction_history": [
+    {
+      "transaction_id": "TXN-ALF01",
+      "timestamp": "2026-04-14T09:00:00Z",
+      "type": "payment",
+      "amount": 500,
+      "counterparty": "BILLER-GP",
+      "status": "failed"
+    },
+    {
+      "transaction_id": "TXN-ALF02",
+      "timestamp": "2026-04-14T09:05:00Z",
+      "type": "payment",
+      "amount": 500,
+      "counterparty": "BILLER-GP",
+      "status": "failed"
+    },
+    {
+      "transaction_id": "TXN-ALF03",
+      "timestamp": "2026-04-14T09:10:00Z",
+      "type": "payment",
+      "amount": 500,
+      "counterparty": "BILLER-GP",
+      "status": "failed"
+    }
+  ]
+}

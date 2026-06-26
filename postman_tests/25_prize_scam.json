@@ -1,0 +1,17 @@
+{
+  "ticket_id": "TKT-SCAM-01",
+  "complaint": "Someone called me and said I won a prize of 50000 taka from a lottery. They told me to send 500 taka to a number to verify my account and claim the prize. I sent the 500 taka but never received any prize money. I think I was scammed.",
+  "language": "en",
+  "channel": "call_center",
+  "user_type": "customer",
+  "transaction_history": [
+    {
+      "transaction_id": "TXN-SC01",
+      "timestamp": "2026-04-14T11:00:00Z",
+      "type": "transfer",
+      "amount": 500,
+      "counterparty": "+8801999888777",
+      "status": "completed"
+    }
+  ]
+}

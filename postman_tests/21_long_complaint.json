@@ -1,0 +1,17 @@
+{
+  "ticket_id": "TKT-LONG-01",
+  "complaint": "I am writing to report a very serious issue with my account. Yesterday at approximately 2:30 PM I was trying to send money to my brother who lives in Dhaka. His number is 01712345678. I entered the amount of 10000 taka and pressed send. The app showed a loading screen for about 30 seconds and then showed an error message saying Transaction Failed. However when I checked my balance the 10000 taka was already deducted. I tried calling helpline but could not get through. Tried chat support but no one responded. This is for my brother medical treatment. He needs it today. I have screenshots of the error. Please help resolve this urgently. I have been a loyal customer for 5 years.",
+  "language": "en",
+  "channel": "email",
+  "user_type": "customer",
+  "transaction_history": [
+    {
+      "transaction_id": "TXN-LG01",
+      "timestamp": "2026-04-13T14:30:00Z",
+      "type": "transfer",
+      "amount": 10000,
+      "counterparty": "+8801712345678",
+      "status": "failed"
+    }
+  ]
+}

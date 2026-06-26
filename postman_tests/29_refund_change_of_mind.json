@@ -1,0 +1,17 @@
+{
+  "ticket_id": "TKT-REF-01",
+  "complaint": "I bought a shirt online for 1200 taka but I changed my mind and dont want it anymore. Please refund my 1200 taka.",
+  "language": "en",
+  "channel": "in_app_chat",
+  "user_type": "customer",
+  "transaction_history": [
+    {
+      "transaction_id": "TXN-REF01",
+      "timestamp": "2026-04-14T10:00:00Z",
+      "type": "payment",
+      "amount": 1200,
+      "counterparty": "MERCHANT-FASHION",
+      "status": "completed"
+    }
+  ]
+}

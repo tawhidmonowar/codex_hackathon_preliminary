@@ -1,0 +1,17 @@
+{
+  "ticket_id": "TKT-CO-01",
+  "complaint": "I did a cash out of 5000 taka from an agent but only received 4500 in hand. The agent charged me extra.",
+  "language": "en",
+  "channel": "call_center",
+  "user_type": "customer",
+  "transaction_history": [
+    {
+      "transaction_id": "TXN-CO01",
+      "timestamp": "2026-04-14T15:00:00Z",
+      "type": "cash_out",
+      "amount": 5000,
+      "counterparty": "AGENT-999",
+      "status": "completed"
+    }
+  ]
+}

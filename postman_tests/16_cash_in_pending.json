@@ -1,0 +1,17 @@
+{
+  "ticket_id": "TKT-CI-01",
+  "complaint": "I gave 3000 taka to an agent for cash in this morning but my balance has not increased. The agent says he already sent it but I cannot see it.",
+  "language": "en",
+  "channel": "call_center",
+  "user_type": "customer",
+  "transaction_history": [
+    {
+      "transaction_id": "TXN-CI01",
+      "timestamp": "2026-04-14T08:45:00Z",
+      "type": "cash_in",
+      "amount": 3000,
+      "counterparty": "AGENT-777",
+      "status": "pending"
+    }
+  ]
+}

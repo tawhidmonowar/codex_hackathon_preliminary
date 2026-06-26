@@ -1,0 +1,21 @@
+{
+  "ticket_id": "TKT-EXTRA-01",
+  "complaint": "My payment failed but balance was deducted. Please check immediately.",
+  "language": "en",
+  "channel": "in_app_chat",
+  "user_type": "customer",
+  "extra_field_1": "unexpected_value",
+  "priority": "urgent",
+  "internal_note": "test extra fields",
+  "metadata": {"source": "campaign_bot", "retry_count": 2},
+  "transaction_history": [
+    {
+      "transaction_id": "TXN-EX01",
+      "timestamp": "2026-04-14T16:00:00Z",
+      "type": "payment",
+      "amount": 900,
+      "counterparty": "MERCHANT-Z",
+      "status": "failed"
+    }
+  ]
+}

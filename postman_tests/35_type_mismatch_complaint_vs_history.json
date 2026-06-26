@@ -1,0 +1,25 @@
+{
+  "ticket_id": "TKT-TM-01",
+  "complaint": "My transfer of 2000 taka failed yesterday. Please check.",
+  "language": "en",
+  "channel": "in_app_chat",
+  "user_type": "customer",
+  "transaction_history": [
+    {
+      "transaction_id": "TXN-TM01",
+      "timestamp": "2026-04-13T14:00:00Z",
+      "type": "payment",
+      "amount": 2000,
+      "counterparty": "MERCHANT-SHOP",
+      "status": "completed"
+    },
+    {
+      "transaction_id": "TXN-TM02",
+      "timestamp": "2026-04-13T16:00:00Z",
+      "type": "payment",
+      "amount": 1000,
+      "counterparty": "BILLER-WATER",
+      "status": "failed"
+    }
+  ]
+}

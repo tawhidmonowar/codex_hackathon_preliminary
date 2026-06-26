@@ -1,0 +1,41 @@
+{
+  "ticket_id": "TKT-INC-01",
+  "complaint": "I sent 1500 taka to the wrong person yesterday by mistake. Please reverse it immediately.",
+  "language": "en",
+  "channel": "in_app_chat",
+  "user_type": "customer",
+  "transaction_history": [
+    {
+      "transaction_id": "TXN-IC01",
+      "timestamp": "2026-04-13T10:00:00Z",
+      "type": "transfer",
+      "amount": 1500,
+      "counterparty": "+8801555555555",
+      "status": "completed"
+    },
+    {
+      "transaction_id": "TXN-IC02",
+      "timestamp": "2026-04-10T10:00:00Z",
+      "type": "transfer",
+      "amount": 2000,
+      "counterparty": "+8801555555555",
+      "status": "completed"
+    },
+    {
+      "transaction_id": "TXN-IC03",
+      "timestamp": "2026-04-07T10:00:00Z",
+      "type": "transfer",
+      "amount": 1000,
+      "counterparty": "+8801555555555",
+      "status": "completed"
+    },
+    {
+      "transaction_id": "TXN-IC04",
+      "timestamp": "2026-04-03T10:00:00Z",
+      "type": "transfer",
+      "amount": 1500,
+      "counterparty": "+8801555555555",
+      "status": "completed"
+    }
+  ]
+}

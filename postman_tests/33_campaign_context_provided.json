@@ -1,0 +1,18 @@
+{
+  "ticket_id": "TKT-CAMP-01",
+  "complaint": "I was supposed to get 100 taka cashback from the Boishakh Bonanza campaign but I never received it. I made a payment of 500 taka during the campaign.",
+  "language": "en",
+  "channel": "in_app_chat",
+  "user_type": "customer",
+  "campaign_context": "boishakh_bonanza_day_1",
+  "transaction_history": [
+    {
+      "transaction_id": "TXN-CAMP01",
+      "timestamp": "2026-04-14T10:30:00Z",
+      "type": "payment",
+      "amount": 500,
+      "counterparty": "MERCHANT-FOOD",
+      "status": "completed"
+    }
+  ]
+}

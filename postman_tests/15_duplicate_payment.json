@@ -1,0 +1,25 @@
+{
+  "ticket_id": "TKT-DUP-01",
+  "complaint": "My internet bill of 1500 taka was deducted twice from my account. I only pressed pay once but it charged me two times!",
+  "language": "en",
+  "channel": "in_app_chat",
+  "user_type": "customer",
+  "transaction_history": [
+    {
+      "transaction_id": "TXN-DUP01",
+      "timestamp": "2026-04-14T15:30:10Z",
+      "type": "payment",
+      "amount": 1500,
+      "counterparty": "BILLER-ISP",
+      "status": "completed"
+    },
+    {
+      "transaction_id": "TXN-DUP02",
+      "timestamp": "2026-04-14T15:30:18Z",
+      "type": "payment",
+      "amount": 1500,
+      "counterparty": "BILLER-ISP",
+      "status": "completed"
+    }
+  ]
+}

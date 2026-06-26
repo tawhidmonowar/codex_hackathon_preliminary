@@ -1,0 +1,17 @@
+{
+  "ticket_id": "TKT-VAGUE-01",
+  "complaint": "Help",
+  "language": "en",
+  "channel": "in_app_chat",
+  "user_type": "customer",
+  "transaction_history": [
+    {
+      "transaction_id": "TXN-V01",
+      "timestamp": "2026-04-14T08:00:00Z",
+      "type": "payment",
+      "amount": 500,
+      "counterparty": "MERCHANT-X",
+      "status": "completed"
+    }
+  ]
+}

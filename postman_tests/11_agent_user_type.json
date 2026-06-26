@@ -1,0 +1,17 @@
+{
+  "ticket_id": "TKT-AGT-01",
+  "complaint": "Customer claims I did not give him cash but I already completed the transaction from my end. Please check TXN-AG01 and resolve this dispute.",
+  "language": "en",
+  "channel": "field_agent",
+  "user_type": "agent",
+  "transaction_history": [
+    {
+      "transaction_id": "TXN-AG01",
+      "timestamp": "2026-04-14T14:00:00Z",
+      "type": "cash_out",
+      "amount": 3000,
+      "counterparty": "CUST-5555",
+      "status": "completed"
+    }
+  ]
+}
