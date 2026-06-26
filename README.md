@@ -161,24 +161,6 @@ The system prompt explicitly instructs the AI to treat all complaint text as **u
 
 ---
 
-## Evidence Reasoning
-
-This is where the biggest score lives (35%). The service doesn't just classify complaints by keywords — it investigates.
-
-**What it does:**
-- Matches complaint details (amount, time, recipient) against transaction history
-- Detects inconsistencies (e.g., "wrong transfer" but 4 previous transfers to the same person)
-- Identifies ambiguity (e.g., multiple transactions match — asks for clarification instead of guessing)
-- Picks the correct `relevant_transaction_id` from history
-- For duplicates: identifies the second transaction as the duplicate
-
-**When it says "I don't know":**
-- Vague complaints with no matching transaction → `insufficient_data`
-- Multiple equally-plausible matches → `insufficient_data` + asks for clarification
-- Complaint references a transaction not in the provided history → `null` + `insufficient_data`
-
----
-
 ## Performance & Reliability
 
 | Metric | Our Service |
