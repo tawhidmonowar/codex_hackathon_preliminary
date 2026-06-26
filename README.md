@@ -21,7 +21,8 @@ POST /analyze-ticket  → Structured JSON analysis
 
 ```bash
 # Clone
-git clone https://github.com/tawhidmonowar/codex_hackathon_preliminar && cd codex_hackathon_preliminar
+git clone https://github.com/tawhidmonowar/codex_hackathon_preliminar
+cd codex_hackathon_preliminar
 
 # Install dependencies
 composer install
