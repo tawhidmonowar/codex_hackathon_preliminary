@@ -31,8 +31,8 @@ composer install
 cp .env.example .env
 php artisan key:generate
 
-# Add your Gemini API key(s)
-# Edit .env → GEMINI_API_KEY=your_key_here
+# Add Gemini API key(s)
+# Edit .env → GEMINI_API_KEY=key_here
 
 # Database
 touch database/database.sqlite
@@ -102,8 +102,7 @@ POST /analyze-ticket
 1. **Request comes in** → Validated for required fields and types
 2. **Gemini analyzes** → Reads complaint + transaction history, produces structured JSON
 3. **Safety guard runs** → Scans output for credential requests, refund promises, unsafe language
-4. **Response returns** → Always valid JSON, always safe, always within timeout
-
+4. **Response returns** → Always valid JSON, always safe
 ---
 
 ## MODELS
