@@ -8,7 +8,7 @@ An AI-powered support copilot that investigates digital finance complaints by cr
 
 ## Live Endpoint
 
-> **Base URL:** `<YOUR_LIVE_URL_HERE>`
+> **Base URL:** `https://codex-hackathon-preliminary.laravel.cloud/`
 
 ```
 GET  /health          → {"status":"ok"}
