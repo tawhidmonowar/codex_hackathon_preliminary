@@ -21,7 +21,7 @@ POST /analyze-ticket  → Structured JSON analysis
 
 ```bash
 # Clone
-git clone <repo-url> && cd <repo-name>
+git clone https://github.com/tawhidmonowar/codex_hackathon_preliminar && cd codex_hackathon_preliminar
 
 # Install dependencies
 composer install
@@ -102,8 +102,6 @@ POST /analyze-ticket
 2. **Gemini analyzes** → Reads complaint + transaction history, produces structured JSON
 3. **Safety guard runs** → Scans output for credential requests, refund promises, unsafe language
 4. **Response returns** → Always valid JSON, always safe, always within timeout
-
-If Gemini is unavailable (rate limit, network issue), a keyword-based fallback classifier kicks in. The service never crashes, never returns invalid JSON, never times out.
 
 ---
 
@@ -286,13 +284,9 @@ Image is under 200MB. No GPU needed. Starts in seconds.
 
 1. **AI dependency** — If all Gemini API keys are exhausted, the fallback keyword classifier has lower accuracy for complex cases (ambiguity, inconsistencies).
 
-2. **Bangla in fallback mode** — The fallback classifier detects basic Bangla keywords but doesn't do deep NLP. Complex Bangla complaints need the AI layer.
+2. **No conversation context** — Each ticket is analyzed independently. The service doesn't remember previous tickets from the same customer.
 
-3. **No conversation context** — Each ticket is analyzed independently. The service doesn't remember previous tickets from the same customer.
-
-4. **Single transaction matching** — When a complaint could match 3+ transactions equally, the service correctly says "insufficient_data" rather than guessing. Some judges might prefer a best-guess approach.
-
-5. **Free tier limits** — With 3 keys we get ~4500 requests/day. Enough for evaluation, but a production system would need paid API access.
+3. **Free tier limits** — With 3 keys we get ~4500 requests/day. Enough for evaluation, but a production system would need paid API access.
 
 ---
 
@@ -323,15 +317,6 @@ app/
     ├── TicketAnalyzerService.php      # Prompt building, response parsing, fallback
     └── SafetyGuardService.php         # Post-processing safety enforcement
 ```
-
----
-
-## No Secrets Committed
-
-- `.env` is in `.gitignore`
-- `.env.example` contains variable names only (no real values)
-- Error responses never expose API keys or stack traces
-- Logs never contain sensitive data
 
 ---
 
