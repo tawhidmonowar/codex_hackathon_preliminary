@@ -299,7 +299,3 @@ app/
     ├── TicketAnalyzerService.php      # Prompt building, response parsing, fallback
     └── SafetyGuardService.php         # Post-processing safety enforcement
 ```
-
----
-
-*Built with focus on correctness, safety, and reliability over complexity. A simple system that always works beats a clever system that sometimes breaks.*
